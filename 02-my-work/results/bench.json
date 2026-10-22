@@ -1,0 +1,97 @@
+{
+ "orig_rgb": {
+  "train_ms_iter": 4.841897950009297,
+  "s_per_epoch": 14.525693850027892,
+  "infer_ms_img": 0.25711483000122826
+ },
+ "sigmoid_bn": {
+  "train_ms_iter": 7.056195589993877,
+  "s_per_epoch": 21.16858676998163,
+  "infer_ms_img": 0.496977570001036
+ },
+ "ref_gray": {
+  "train_ms_iter": 4.598663739998301,
+  "s_per_epoch": 13.795991219994903,
+  "infer_ms_img": 0.3333541700067144
+ },
+ "ref_softmax": {
+  "train_ms_iter": 4.705759400003444,
+  "s_per_epoch": 14.117278200010333,
+  "infer_ms_img": 0.3400471349959844
+ },
+ "width_x2": {
+  "train_ms_iter": 10.828160700002627,
+  "s_per_epoch": 32.48448210000788,
+  "infer_ms_img": 0.667723679998744
+ },
+ "width_x4": {
+  "train_ms_iter": 24.475284520012792,
+  "s_per_epoch": 73.42585356003838,
+  "infer_ms_img": 1.279505534994314
+ },
+ "depth_2": {
+  "train_ms_iter": 3.5929171700081497,
+  "s_per_epoch": 10.778751510024449,
+  "infer_ms_img": 0.16110742500131892
+ },
+ "depth_4_pad": {
+  "train_ms_iter": 7.21053359000507,
+  "s_per_epoch": 21.63160077001521,
+  "infer_ms_img": 0.47677046999524464
+ },
+ "pad_same": {
+  "train_ms_iter": 5.599750949986628,
+  "s_per_epoch": 16.799252849959885,
+  "infer_ms_img": 0.38957322500209557
+ },
+ "kernel_5": {
+  "train_ms_iter": 7.529318709985091,
+  "s_per_epoch": 22.587956129955273,
+  "infer_ms_img": 0.8920293699975446
+ },
+ "vgg_2conv": {
+  "train_ms_iter": 12.598154669994983,
+  "s_per_epoch": 37.79446400998495,
+  "infer_ms_img": 0.9736716499992326
+ },
+ "avg_pool": {
+  "train_ms_iter": 5.102109090003069,
+  "s_per_epoch": 15.306327270009206,
+  "infer_ms_img": 0.23354081999968912
+ },
+ "stride_conv": {
+  "train_ms_iter": 2.5135666099959053,
+  "s_per_epoch": 7.540699829987716,
+  "infer_ms_img": 0.18771555500279646
+ },
+ "batchnorm": {
+  "train_ms_iter": 6.55516295999405,
+  "s_per_epoch": 19.66548887998215,
+  "infer_ms_img": 0.36653889999797684
+ },
+ "dropout": {
+  "train_ms_iter": 4.899535340009606,
+  "s_per_epoch": 14.69860602002882,
+  "infer_ms_img": 0.33219194000594143
+ },
+ "flatten_head": {
+  "train_ms_iter": 5.013703419990634,
+  "s_per_epoch": 15.041110259971902,
+  "infer_ms_img": 0.1844223799980682
+ },
+ "depth_4_pad_bn": {
+  "train_ms_iter": 9.850340890006919,
+  "s_per_epoch": 29.551022670020757,
+  "infer_ms_img": 0.6678698550058471
+ },
+ "vgg_2conv_bn": {
+  "train_ms_iter": 14.583778449996316,
+  "s_per_epoch": 43.75133534998895,
+  "infer_ms_img": 1.0008582649970776
+ },
+ "combo_A": {
+  "train_ms_iter": 17.708518279996497,
+  "s_per_epoch": 53.12555483998949,
+  "infer_ms_img": 0.9227154549989791
+ }
+}

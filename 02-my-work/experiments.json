@@ -1,0 +1,319 @@
+[
+ {
+  "name": "asgiven_1ep_s0",
+  "cfg": "orig",
+  "epochs": 1,
+  "red_only": true
+ },
+ {
+  "name": "asgiven_1ep_s1",
+  "cfg": "orig",
+  "epochs": 1,
+  "seed": 1,
+  "red_only": true
+ },
+ {
+  "name": "asgiven_1ep_s2",
+  "cfg": "orig",
+  "epochs": 1,
+  "seed": 2,
+  "red_only": true
+ },
+ {
+  "name": "asgiven_1ep_s3",
+  "cfg": "orig",
+  "epochs": 1,
+  "seed": 3,
+  "red_only": true
+ },
+ {
+  "name": "asgiven_1ep_s4",
+  "cfg": "orig",
+  "epochs": 1,
+  "seed": 4,
+  "red_only": true
+ },
+ {
+  "name": "aug_combo_A",
+  "cfg": {
+   "chans": [
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "bn": true,
+   "out": "softmax"
+  },
+  "epochs": 15,
+  "aug": true,
+  "cosine": true
+ },
+ {
+  "name": "aug_depth_4_pad_bn",
+  "cfg": {
+   "chans": [
+    16,
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "bn": true,
+   "out": "softmax"
+  },
+  "epochs": 15,
+  "aug": true,
+  "cosine": true
+ },
+ {
+  "name": "avg_pool",
+  "cfg": {
+   "pool": "avg",
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "batchnorm",
+  "cfg": {
+   "bn": true,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "batchnorm_s1",
+  "cfg": {
+   "bn": true,
+   "out": "softmax"
+  },
+  "seed": 1
+ },
+ {
+  "name": "batchnorm_s2",
+  "cfg": {
+   "bn": true,
+   "out": "softmax"
+  },
+  "seed": 2
+ },
+ {
+  "name": "combo_A",
+  "cfg": {
+   "chans": [
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "bn": true,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "combo_A_s1",
+  "cfg": {
+   "chans": [
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "bn": true,
+   "out": "softmax"
+  },
+  "seed": 1
+ },
+ {
+  "name": "combo_A_s2",
+  "cfg": {
+   "chans": [
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "bn": true,
+   "out": "softmax"
+  },
+  "seed": 2
+ },
+ {
+  "name": "depth_2",
+  "cfg": {
+   "chans": [
+    16,
+    32
+   ],
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "depth_4_pad",
+  "cfg": {
+   "chans": [
+    16,
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "depth_4_pad_bn",
+  "cfg": {
+   "chans": [
+    16,
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "bn": true,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "depth_4_pad_bn_s1",
+  "cfg": {
+   "chans": [
+    16,
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "bn": true,
+   "out": "softmax"
+  },
+  "seed": 1
+ },
+ {
+  "name": "depth_4_pad_bn_s2",
+  "cfg": {
+   "chans": [
+    16,
+    32,
+    64,
+    128
+   ],
+   "pad": 1,
+   "bn": true,
+   "out": "softmax"
+  },
+  "seed": 2
+ },
+ {
+  "name": "dropout",
+  "cfg": {
+   "dropout": 0.3,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "flatten_head",
+  "cfg": {
+   "head": "flatten",
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "kernel_5",
+  "cfg": {
+   "k": 5,
+   "pad": 2,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "orig_rgb",
+  "cfg": "orig"
+ },
+ {
+  "name": "pad_same",
+  "cfg": {
+   "pad": 1,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "ref_gray",
+  "cfg": {
+   "out": "softmax"
+  },
+  "red_only": true
+ },
+ {
+  "name": "ref_softmax",
+  "cfg": {
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "ref_softmax_s1",
+  "cfg": {
+   "out": "softmax"
+  },
+  "seed": 1
+ },
+ {
+  "name": "ref_softmax_s2",
+  "cfg": {
+   "out": "softmax"
+  },
+  "seed": 2
+ },
+ {
+  "name": "sigmoid_bn",
+  "cfg": {
+   "bn": true
+  }
+ },
+ {
+  "name": "stride_conv",
+  "cfg": {
+   "pool": "stride",
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "vgg_2conv",
+  "cfg": {
+   "pad": 1,
+   "convs": 2,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "vgg_2conv_bn",
+  "cfg": {
+   "pad": 1,
+   "convs": 2,
+   "bn": true,
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "width_x2",
+  "cfg": {
+   "chans": [
+    32,
+    64,
+    128
+   ],
+   "out": "softmax"
+  }
+ },
+ {
+  "name": "width_x4",
+  "cfg": {
+   "chans": [
+    64,
+    128,
+    256
+   ],
+   "out": "softmax"
+  }
+ }
+]
